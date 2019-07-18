@@ -14,7 +14,7 @@ module.exports = {
     minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})]
   },
   entry: {
-    main: "./src/js/app.js"
+    main: "./src/js/entry.js"
   },
   output: {
     path: path.resolve(__dirname, "public"),
