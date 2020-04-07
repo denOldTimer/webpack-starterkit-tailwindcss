@@ -1,6 +1,6 @@
 {
   "name": "webpack-tailwindcss",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Webpack 4 starterkit with Tailwindcss",
   "main": "index.js",
   "scripts": {
