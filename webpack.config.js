@@ -97,7 +97,7 @@ module.exports = {
       //options similar to same options in WebpackOptions.output
       //both options are optional
       filename: "[name].bundle.css",
-      chunckFilename: "[id].css"
+      chunkFilename: "[id].css"
     }),
     new PurgecssPlugin({
       paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
