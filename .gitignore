@@ -23,5 +23,5 @@ composer.lock
 ###< composer ###
 
 ###> The build  ###
-/public/*
+/dist/*
 ###< The build ###
